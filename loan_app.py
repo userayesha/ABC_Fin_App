@@ -32,6 +32,7 @@ def db_connect():
 
 # establsih the connection
 conn = db_connect()
+connect=db_connect()
 
 # REST API service
 app = Flask(__name__)

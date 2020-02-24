@@ -1,0 +1,17 @@
+02-21 11:46 root         INFO     Connected to loan_data.db
+02-21 11:46 root         INFO     Connected to loan_data.db
+02-21 11:46 werkzeug     WARNING   * Debugger is active!
+02-21 11:46 werkzeug     INFO      * Debugger PIN: 138-090-688
+02-21 11:46 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+02-21 11:47 root         INFO     Capturing app data simple
+02-21 11:47 root         INFO     ['simple', 'abc@gmail.com', '12', '1', '1', '0', '0', '0', '100', '100', '100', '11', '0', '2']
+02-21 11:47 root         INFO     Connected to loan_data.db
+02-21 11:47 root         INFO     DB commit successful
+02-21 11:47 root         INFO     Your loan application with ID [ 1 ] is submitted successfully
+02-21 11:47 werkzeug     INFO     127.0.0.1 - - [21/Feb/2020 11:47:02] "[37mPOST /application.html HTTP/1.1[0m" 200 -
+02-21 11:47 root         INFO     Capturing app data simple
+02-21 11:47 root         INFO     ['simple', 'abc@gmail.com', '12', '0', '0', '0', '0', '1', '4', '100', '100', '10', '0', '2']
+02-21 11:47 root         INFO     Connected to loan_data.db
+02-21 11:47 root         INFO     DB commit successful
+02-21 11:47 root         INFO     Your loan application with ID [ 2 ] is submitted successfully
+02-21 11:47 werkzeug     INFO     127.0.0.1 - - [21/Feb/2020 11:47:42] "[37mPOST /application.html HTTP/1.1[0m" 200 -
