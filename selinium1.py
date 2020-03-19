@@ -66,6 +66,6 @@ if result[0][1] == "Siva Kumar" and result[0][2] == "aa@gmail.com" and result[0]
  delete="DELETE FROM `loan_application` WHERE loanid = (SELECT MAX(loanid) FROM `loan_application`)"
  c.execute(delete)
 #drop="DROP TABLE `loan_application`"
-c.excute("DROP TABLE `loan_application`")
+c.execute("DROP TABLE `loan_application`")
 conn.commit()
 driver.close()
