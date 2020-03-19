@@ -1,5 +1,5 @@
-
-xcopy /s ABC_Fin_App\templates ./
+md templates 
+xcopy /s ABC_Fin_App\templates .\templates\
 xcopy /s ABC_Fin_App\db_creation_script ./
 xcopy /s ABC_Fin_App\loan_app.py ./
 xcopy /s ABC_Fin_App\selinium1.py ./
