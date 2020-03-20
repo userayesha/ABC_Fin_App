@@ -6,4 +6,4 @@ echo %CD%
 git  checkout release
 git fetch origin
 git pull
-git origin/developer
+git merge origin/developer
