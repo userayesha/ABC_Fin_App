@@ -1,6 +1,6 @@
 git config --global user.name "sivakumarsagar"
 git config --global user.email "kicksiva191964@gmail.com"
-git checkout release
+//git checkout release
 cd ABC_Fin_App
 echo %CD%
 //git --git-dir=C:\Users\home1\.jenkins\workspace\pipeline\ABC_Fin_App checkout release
