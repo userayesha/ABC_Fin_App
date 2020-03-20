@@ -38,10 +38,10 @@ query = "SELECT * FROM `loan_application` WHERE loanid IN (SELECT max(loanid) FR
 cursor=c.execute(query)
 result = cursor.fetchall() 
 
-if result[0][1] == "Siva Kumar" and result[0][2] == "aa@gmail.com" and result[0][3] == "33" and result[0][4] == "1" and result[0][5] == "0" and result[0][6] == "2" and result[0][7] == "1" and result[0][8] == "1" and result[0][9] == "0.0" and result[0][10] == "0.0" and result[0][11] == "0" and result[0][12] == "0.0" and result[0][13] == "0" and result[0][14] == "2": 
- delete="DELETE FROM `loan_application` WHERE loanid = (SELECT MAX(loanid) FROM `loan_application`)"
- print("sending data and database data matching")
- c.execute(delete)
+#if result[0][1] == "Siva Kumar" and result[0][2] == "aa@gmail.com" and result[0][3] == "33" and result[0][4] == "1" and result[0][5] == "0" and result[0][6] == "2" and result[0][7] == "1" and result[0][8] == "1" and result[0][9] == "0.0" and result[0][10] == "0.0" and result[0][11] == "0" and result[0][12] == "0.0" and result[0][13] == "0" and result[0][14] == "2": 
+# delete="DELETE FROM `loan_application` WHERE loanid = (SELECT MAX(loanid) FROM `loan_application`)"
+# print("sending data and database data matching")
+# c.execute(delete)
 c.execute("DROP TABLE `loan_application`")
 conn.commit()
 driver.close()
